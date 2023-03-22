@@ -1,0 +1,7 @@
+com\salamych\cinema\api\transformers\JsonTransformer.class
+com\salamych\cinema\api\controllers\ScheduleController.class
+com\salamych\cinema\api\controllers\CommonController$Result.class
+com\salamych\cinema\api\controllers\CommonController.class
+com\salamych\cinema\api\App$1.class
+com\salamych\cinema\api\controllers\CommonController$Code.class
+com\salamych\cinema\api\App.class
