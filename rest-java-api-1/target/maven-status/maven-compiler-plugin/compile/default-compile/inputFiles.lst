@@ -1,4 +1,8 @@
 E:\Global_project\REST-Project\rest-java-api-1\src\main\java\com\salamych\cinema\api\transformers\JsonTransformer.java
 E:\Global_project\REST-Project\rest-java-api-1\src\main\java\com\salamych\cinema\api\controllers\ScheduleController.java
+E:\Global_project\REST-Project\rest-java-api-1\src\main\java\com\salamych\cinema\api\models\ScheduleModel.java
+E:\Global_project\REST-Project\rest-java-api-1\src\main\java\com\salamych\cinema\api\storages\FileStorage.java
 E:\Global_project\REST-Project\rest-java-api-1\src\main\java\com\salamych\cinema\api\controllers\CommonController.java
+E:\Global_project\REST-Project\rest-java-api-1\src\main\java\com\salamych\cinema\api\models\CommonModel.java
+E:\Global_project\REST-Project\rest-java-api-1\src\main\java\com\salamych\cinema\api\storages\CommonStorage.java
 E:\Global_project\REST-Project\rest-java-api-1\src\main\java\com\salamych\cinema\api\App.java

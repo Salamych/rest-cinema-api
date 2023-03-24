@@ -30,7 +30,7 @@ public class App {
         storage.readAll();
 
         // создание контроллера
-        final ScheduleController controller = new ScheduleController();
+        final ScheduleController controller = new ScheduleController(storage);
 
         // конфигурация сервера
         ipAddress(SERVER_HOST);
@@ -38,7 +38,11 @@ public class App {
 
         // объявление роутов
         path("/api", () -> {
-            get("/test", controller.test, JSON);
+             get(    "/schedule",controller.list,JSON );
+            get(    "/schedule/:timestamp",controller.find,JSON );
+            post(   "/schedule",controller.createOrModify,JSON );
+            put(    "/schedule",controller.createOrModify,JSON );
+            delete( "/schedule/:timestamp",controller.kill,JSON );
         });
         after((req, res) -> {
             res.type(JSON_MIME_TYPE);
